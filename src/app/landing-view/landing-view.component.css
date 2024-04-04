@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.top-section{
+    display: block;
+}

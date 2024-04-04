@@ -1,0 +1,33 @@
+.error-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72%;
+   
+    font-size: 2em;
+}
+button{
+    width: 150px;
+    height: 39px;
+    border-radius: 25px;
+    background-color: purple;
+    color:rgb(250, 235, 148);
+}
+.message-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.small-msg{
+    font-size: 0.5em;
+    margin: 10px;
+    color: gray;
+}
+.Status-code{
+    color: red;
+    font-size: 4em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+}

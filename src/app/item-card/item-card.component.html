@@ -1,0 +1,106 @@
+<a routerLink="item-detail/{{item?.id}}">
+  <mat-card class="card2">
+    <img mat-card-image src="../../assets/{{item?.title}}.jpg">
+     <mat-card-content>
+        <p>{{item?.title}}</p>
+       <p *ngIf="itemCategory==='Cupcakes'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/images.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+      </p>
+      <p *ngIf="itemCategory==='Brownies'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/broenie-avatar.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+       
+      </p>
+      <p *ngIf="itemCategory==='Cheesecake'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/cheesecake avatar 2.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+      </p>
+      <p *ngIf="itemCategory==='Cake'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/cake-avatar.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+      </p>
+      <p *ngIf="itemCategory==='Cookies'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/cookie avatar.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+       
+      </p>
+      <p *ngIf="itemCategory==='Chocolate'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/chocolate-avatar.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+      </p>
+      <p *ngIf="itemCategory==='Muffin'">
+        <mat-chip-listbox aria-label="Dog selection">
+          <mat-chip class="chip-category">
+            <img matChipAvatar src="../../assets/muffin-avatar.jpg" alt="Photo" class="chip-icon"/>
+           {{item?.category}}
+          </mat-chip>
+          </mat-chip-listbox>
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+        <img mat-card-image src="../../assets/rating.jpg" class="rating-img">
+      </p>
+
+      <div class="price-container">
+        <div class="price-font"><span>&#8377;</span> {{item?.price}}</div>
+        <button mat-raised-button style="background-color: purple; color: white;" >Order Now</button>
+      </div>
+
+     </mat-card-content><br>
+  </mat-card>
+</a>
+

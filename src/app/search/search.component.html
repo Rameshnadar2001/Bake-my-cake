@@ -1,0 +1,10 @@
+<div class="search-box">
+    <mat-form-field appearance="outline">
+        <mat-label>Search Items</mat-label>
+        <input matInput type="text" [(ngModel)]="searchText">
+      </mat-form-field>
+      <button mat-icon-button (click)="search()">
+        <img style=" height: 36px;
+        width: 36px;" src="../../assets/search-image.jpg" alt="">
+      </button>
+</div>

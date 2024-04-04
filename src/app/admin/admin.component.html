@@ -1,0 +1,30 @@
+
+<div class="admin-container">
+    <mat-card class="card2">
+        <h3>Admin Login</h3>
+        <form [formGroup]="adminLogin" (ngSubmit)="onSubmit(adminLogin)">
+         
+          <mat-form-field appearance="outline">
+            <mat-label>Security Code</mat-label>
+              <input  matInput
+              id="securityCode"
+              type="password"
+              formControlName="securityCode"
+              name="securityCode">
+               
+          <mat-error *ngIf="securityCode?.errors?.['required']">
+             Security required
+          </mat-error>
+              
+          </mat-form-field>
+          
+          <mat-error *ngIf="adminLogin.errors?.['invalidSeccode']">
+            Invalid Security code!
+          </mat-error>
+       <div class="submit-button">
+           <button mat-raised-button style="background-color: purple; color: white;"  class="button-save" type="submit">Login</button>
+        </div>
+      </form>
+  </mat-card>
+  
+</div>

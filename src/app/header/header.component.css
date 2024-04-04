@@ -1,0 +1,28 @@
+#header{
+  display: flex;
+  width: 96vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 104px;
+  background-color: #780078;
+  color: gold;
+  font-family: cursive;
+  /* letter-spacing: 7px; */
+  padding-left: 34px;
+}
+mat-icon{
+    padding: 10px;
+    color: gold;
+}
+img{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #780078;
+}
+
+.header-icons{
+  margin-right: 90px;
+}
+a{
+  color: black;
+}

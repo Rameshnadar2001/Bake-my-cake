@@ -1,0 +1,27 @@
+.card2{
+    width: 38%;
+    /* float: left; */
+    margin: 29px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+}
+
+.submit-button{
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    width: 101%;
+    margin-bottom: 30px;
+}
+button{
+    width:92px;
+   
+ }

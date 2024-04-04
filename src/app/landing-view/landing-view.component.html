@@ -1,0 +1,16 @@
+<div class="top-section"> 
+    <app-search (onSearch)="searched($event)"></app-search>
+    <app-filter-search (onSearchByCategory)="searchCategory($event)"></app-filter-search>
+</div>
+<div class="card">
+    <app-item-card *ngFor="let item of items" [item]="item"></app-item-card>
+ </div>
+   
+
+
+
+
+
+
+
+
